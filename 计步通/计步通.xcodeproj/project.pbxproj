@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		216B4B191F277DFA00144473 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B4B101F277DFA00144473 /* AppDelegate.m */; };
+		216B4B1C1F277F1200144473 /* JJMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B4B1B1F277F1200144473 /* JJMapViewController.m */; };
 		217D75531F2721350097DCAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 217D75521F2721350097DCAA /* main.m */; };
 		217D755C1F2721350097DCAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217D755A1F2721350097DCAA /* Main.storyboard */; };
 		217D755E1F2721350097DCAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217D755D1F2721350097DCAA /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 /* Begin PBXFileReference section */
 		216B4B0F1F277DFA00144473 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		216B4B101F277DFA00144473 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		216B4B1A1F277F1200144473 /* JJMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJMapViewController.h; sourceTree = "<group>"; };
+		216B4B1B1F277F1200144473 /* JJMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJMapViewController.m; sourceTree = "<group>"; };
 		217D754E1F2721350097DCAA /* 计步通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计步通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		217D75521F2721350097DCAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		217D755B1F2721350097DCAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +60,8 @@
 		216B4B111F277DFA00144473 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				216B4B1A1F277F1200144473 /* JJMapViewController.h */,
+				216B4B1B1F277F1200144473 /* JJMapViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 		217D75461F2721350097DCAA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JJ;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = bowen;
 				TargetAttributes = {
@@ -294,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				216B4B191F277DFA00144473 /* AppDelegate.m in Sources */,
+				216B4B1C1F277F1200144473 /* JJMapViewController.m in Sources */,
 				217D75531F2721350097DCAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
