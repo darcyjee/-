@@ -13,6 +13,8 @@
 		217D755C1F2721350097DCAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217D755A1F2721350097DCAA /* Main.storyboard */; };
 		217D755E1F2721350097DCAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 217D755D1F2721350097DCAA /* Assets.xcassets */; };
 		217D75611F2721350097DCAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 217D755F1F2721350097DCAA /* LaunchScreen.storyboard */; };
+		21AC95A81F2A030E00825780 /* JJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC95A71F2A030E00825780 /* JJConst.m */; };
+		21AC95AB1F2A03C700825780 /* JJTrackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AC95AA1F2A03C700825780 /* JJTrackViewController.m */; };
 		D546DEABF037D4B99E996DCD /* libPods-计步通.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D96C6C555C95279B4067C5F0 /* libPods-计步通.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,10 @@
 		217D755D1F2721350097DCAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		217D75601F2721350097DCAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		217D75621F2721350097DCAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21AC95A61F2A030E00825780 /* JJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJConst.h; sourceTree = "<group>"; };
+		21AC95A71F2A030E00825780 /* JJConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJConst.m; sourceTree = "<group>"; };
+		21AC95A91F2A03C700825780 /* JJTrackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTrackViewController.h; sourceTree = "<group>"; };
+		21AC95AA1F2A03C700825780 /* JJTrackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTrackViewController.m; sourceTree = "<group>"; };
 		59F7FF08E611A78AA18F7C49 /* Pods-计步通.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-计步通.debug.xcconfig"; path = "Pods/Target Support Files/Pods-计步通/Pods-计步通.debug.xcconfig"; sourceTree = "<group>"; };
 		B3C8B797ADBBE208CCEA405E /* Pods-计步通.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-计步通.release.xcconfig"; path = "Pods/Target Support Files/Pods-计步通/Pods-计步通.release.xcconfig"; sourceTree = "<group>"; };
 		D96C6C555C95279B4067C5F0 /* libPods-计步通.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-计步通.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +68,8 @@
 			children = (
 				216B4B1A1F277F1200144473 /* JJMapViewController.h */,
 				216B4B1B1F277F1200144473 /* JJMapViewController.m */,
+				21AC95A91F2A03C700825780 /* JJTrackViewController.h */,
+				21AC95AA1F2A03C700825780 /* JJTrackViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -87,6 +95,8 @@
 		216B4B141F277DFA00144473 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				21AC95A61F2A030E00825780 /* JJConst.h */,
+				21AC95A71F2A030E00825780 /* JJConst.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -212,6 +222,11 @@
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = 397TK37B6J;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -302,6 +317,8 @@
 				216B4B191F277DFA00144473 /* AppDelegate.m in Sources */,
 				216B4B1C1F277F1200144473 /* JJMapViewController.m in Sources */,
 				217D75531F2721350097DCAA /* main.m in Sources */,
+				21AC95A81F2A030E00825780 /* JJConst.m in Sources */,
+				21AC95AB1F2A03C700825780 /* JJTrackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
